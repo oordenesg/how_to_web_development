@@ -1,2 +1,4 @@
 # how_to_web_development
-The goal of this repo is to introduce the main aspects of front-end web development to create a website. 
+
+In this repo I will add useful information to create a website. Here I have the fundamentals of HTML and CSS, the languages essential to developing websites. Additionally, I will add information how to set up a local web development environment.
+
