@@ -92,3 +92,26 @@ In HTML there are six different headings and they can be usd for a variety of pu
   <h2>Media</h2>
 </body>
 ```
+
+## Divs
+
+One of most importan elements in HTML is the *div* element. This element means "division" and divies the page into sections. There sections are very useful for grouping elements together. These sections could hav same styles for all the HTML elements inside. We can also style the *div* element a as whole. These *div* elements could contain any text or other HTML elements like text, images or videos.
+
+```html
+<body>
+  <h1>The Brown Bear</h1>
+  <div>
+    <h2>About Brown Bears</h2>
+    <h3>Species</h3>
+    <h3>Features</h3>
+  </div>
+  <div>
+    <h2>Habitat</h2>
+    <h3>Countries with Large Brown Bear Populations</h3>
+    <h3>Countries with Small Brown Bear Populations</h3>
+  </div>
+  <div>
+    <h2>Media</h2>
+  </div>
+</body>
+```
