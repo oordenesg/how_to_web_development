@@ -148,7 +148,7 @@ One the most common attribute is the id. We can use it to specify content and is
 
 ## Displaying Text
 
-When we want to display text in HTML we can use a *paragraph* or *span denoted by *p*.
+When we want to display text in HTML we can use a *paragraph* or *span* denoted by *p*.
 
 ```html
 <body>
@@ -239,4 +239,35 @@ We can also add ordered list in out HTML code. Instead of using *ul* we just nee
     <h2>Media</h2>
   </div>
 </body>
+```
+
+## Images
+
+The *img* tag allows us to add images to a our web pages. This tag requires both opening and closing tag. However, the end of tag should by followeb by slash */*. Th *img* tag requires a attribute called *src*. The src attribute must be set to the image’s source, or the location of the image. In this case, the value of *src* must be the URL of the image. Let's see example
+
+```html
+ <div id="media">
+    <h2>Media</h2>
+      <img src = "https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg"/>
+  </div>
+```
+Addittionally to the *src* attribute, there is another attribute called *alt* which means alternative text. We can use this attribute when we need to add the meaning to the images on our sites. In general, the value of alt should be a description of the image.
+
+```html
+ <div id="media">
+    <h2>Media</h2>
+    <img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" alt="brown bear face" />
+  </div>
+```
+
+## Videos
+
+In addition to images, HTML also supports displaying videos. Like the *img* tag, the *video* tag requires a src attribute with a link to the video source. Unlike the *img* tag however, the *video* element requires an opening and a closing tag.
+
+```html
+<div id="media">
+    <h2>Media</h2>
+    <img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" alt="A Brown Bear"/>
+    <video src = "https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240" controls>Video not supported</video>
+  </div>
 ```
