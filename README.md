@@ -271,3 +271,36 @@ In addition to images, HTML also supports displaying videos. Like the *img* tag,
     <video src = "https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240" controls>Video not supported</video>
   </div>
 ```
+
+# Preparing for HTML
+
+All HTML files require certain elements to set up the document correctly. We can let web browsers know that we are using HTML by starting our document with a document type declaration. To do this we need to declare *!DOCTYPE html* and  it must be the first line of code in our HTML document. This declaration tells the browser what type of document to expect, along with what version of HTML is being used in the document.
+
+In general we can say that this declaration provides two pieces of information:
+1. The type of document
+2. The HTML version to expect
+
+To create HTML structure and add content, we must add opening and closing *html* tags after *DOCTYPE html*. Let's see and example
+
+```html
+<!DOCTYPE html>
+<html>
+</html>
+```
+In some cases, it is necessary to add information about the page. This information must no be displayed directly on the web page. To do this, we need to add the *head* element after *html* tag and before the *body* tag. This element will contain the metadata for a web page. The metadata is information about the page itself
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Coding Journal</title>
+  </head>
+</html>
+```
+If we were to open a file containing the HTML code in the example above, the browser would display the words My Coding Journal in the title bar (or in the tab’s title). Let's see an example graphically. The site title will be title inside the *head* tag.
+
+![image](https://user-images.githubusercontent.com/76072249/118415911-01a8bb80-b67b-11eb-87d0-4645a4d22842.png)
+
+
+
+
