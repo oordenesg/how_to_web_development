@@ -48,3 +48,6 @@ The example above shows that when we click the text of this link they will be di
 
 # What is CSS? 
 
+CSS is a languague that can provide style to the content of an HTML page. This includes colors, fonts, positioning, layout, and more. When we work with CSS, we could recognize many of the HTML tags. The good thing is that CSS contains selectors that specify the HTML elements to which the style should be applied as well as visual rules that specify how that content should be displayed. 
+
+
