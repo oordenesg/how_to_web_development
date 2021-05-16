@@ -115,3 +115,83 @@ One of most importan elements in HTML is the *div* element. This element means "
   </div>
 </body>
 ```
+
+## Attributes
+
+If we want to expand an element's tag, we can do so using an attribute. These attributes are content added to the opening tag of an element and can be used in several ways from providing information to changing styling. in HTML, attributes are made up of two parts: Name of the attribute and value of the attribute. The following code block shows an example.
+
+```html
+<div id="intro">
+  <h1>Introduction</h1>
+</div>
+```
+One the most common attribute is the id. We can use it to specify content and is really helpful when we use an element more than once. The main objective of *id* is that it allows us to identify content. Let's see another example.
+
+```html
+<body>
+  <h1>The Brown Bear</h1>
+  <div id ="introduction">
+    <h2>About Brown Bears</h2>
+    <h3>Species</h3>
+    <h3>Features</h3>
+  </div>
+  <div id = "habitat">
+    <h2>Habitat</h2>
+    <h3>Countries with Large Brown Bear Populations</h3>
+    <h3>Countries with Small Brown Bear Populations</h3>
+  </div>
+  <div id = "Media">
+    <h2>Media</h2>
+  </div>
+</body>
+```
+
+## Displaying Text
+
+When we want to display text in HTML we can use a *paragraph* or *span denoted by *p*.
+
+```html
+<body>
+  <h1>The Brown Bear</h1>
+  <div id="introduction">
+    <h2>About Brown Bears</h2>
+        <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently Least Concern. There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+    <h3>Species</h3>
+    <h3>Features</h3>
+        <p>Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe</p>
+  </div>
+  <div id="habitat">
+    <h2>Habitat</h2>
+    <h3>Countries with Large Brown Bear Populations</h3>
+    <h3>Countries with Small Brown Bear Populations</h3>
+    <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
+  </div>
+  <div id= "media">
+    <h2>Media</h2>
+  </div>
+</body>
+```
+
+We can also style text using HTML tags. To do this we can use *em* to emphasize text or *strong* to highlights importan text. Additionally, we can also add a line break element within our HTML code. We can do this by adding an opening tag *br* in our code. In this cases, it is necessary a closing tag.
+
+```html
+<body>
+  <h1>The Brown Bear</h1>
+  <div id="introduction">
+    <h2>About Brown Bears</h2>
+    <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>.<br><br> There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+    <h3>Species</h3>
+    <h3>Features</h3>
+    <p>Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.</p>
+  </div>
+  <div id="habitat">
+    <h2>Habitat</h2>
+    <h3>Countries with Large Brown Bear Populations</h3>
+    <h3>Countries with Small Brown Bear Populations</h3>
+    <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
+  </div>
+  <div id="media">
+    <h2>Media</h2>
+  </div>
+</body>
+```
