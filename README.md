@@ -1,5 +1,7 @@
 # how_to_web_development
 
+# Introduction to Web development
+
 In this repo I will add useful information to create a website. Here I have the fundamentals of HTML and CSS, the languages essential to developing websites. Additionally, I will add information how to set up a local web development environment.
 
 First of all, it is important to describe the general process between the Internet and web browsers. The browser sends a request once the server recives the request. the server sends code and data as a response to the brower's request.  
@@ -18,7 +20,7 @@ So, in general, we can say that browers follow two main steps and this process d
 1. When we types in a URL, the server processes the request and sends the HTML file back to the client. The HTML files hold the content of a website and the links.
 2. The browser will search the elements in the HTML and it will start to make additional HTML request for any other external resources. This process will consider the CSS stylesheets and the Javascrips files that make the webpage interactive. 
 
-# What is HTML 
+## What is HTML 
 
 HTML is the skeleton of all web pages. It provides structure to the content on a website considering text, images, videos and more. 
 
@@ -46,8 +48,47 @@ In HTML, we can link our text to other text. This is what we called hypertext an
 ```
 The example above shows that when we click the text of this link they will be directed to the website *learnhowtocode.com*
 
-# What is CSS? 
+## What is CSS? 
 
 CSS is a languague that can provide style to the content of an HTML page. This includes colors, fonts, positioning, layout, and more. When we work with CSS, we could recognize many of the HTML tags. The good thing is that CSS contains selectors that specify the HTML elements to which the style should be applied as well as visual rules that specify how that content should be displayed. 
 
+# Introduction to HTML
 
+## Structure
+
+As we said previously, HTML is the skeleton of all web pages and is core to front-end development work. This is language is the first step in creating websites. In this section we will focuse on how to add and modify basic content on a page.
+
+One key HTML elements we used to build a webpage is the *body* element. Only the content inside the body tags is going to be displayed. To add these tags we just need to add
+```html
+<body>
+  <p>What's up, doc?</p>
+</body>
+```
+HTML is organized as a tree of relationships. In the previous example we added a *body* tag and the *p* tag. When an element is contained inside another element, it is considered as a child of that element. We can also say that the child element is nested inside the parent element. Let's see a more complicated example.
+
+```html
+<body>
+  <div>
+    <h1>Sibling to p, but also grandchild of body</h1>
+    <p>Sibling to h1, but also grandchild of body</p>
+  </div>
+</body>
+```
+In this structure, the *body* element is the parent of *div*. The *h1* and *p* elements are children of *div* and siblings of the *body* element.
+
+## Headins in HTML
+
+In HTML there are six different headings and they can be usd for a variety of purposes. The main header is *h1* and the relevance of the headings decreases as the number increases. For this reason the least important header is *h6*.
+
+```html
+<body>
+  <h1>The Brown Bear</h1>
+  <h2>About Brown Bears</h2>
+  <h3>Species</h3>
+  <h3>Features</h3>
+  <h2>Habitat</h2>
+  <h3>Countries with Large Brown Bear Populations.</h3> 
+  <h3>Countries with Small Brown Bear Populations.</h3>
+  <h2>Media</h2>
+</body>
+```
