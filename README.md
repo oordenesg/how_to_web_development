@@ -301,6 +301,18 @@ If we were to open a file containing the HTML code in the example above, the bro
 
 ![image](https://user-images.githubusercontent.com/76072249/118415911-01a8bb80-b67b-11eb-87d0-4645a4d22842.png)
 
+## Linking to Other Web Pages
+
+We can add links to our web page by using the opening and closing tag *a* called anchor. This tag has an attribute called href which is the URL. Let's see the structure of this tag.
+
+```html
+<a href="https://www.wikipedia.org/">This Is A Link To Wikipedia</a>
+```
+When we click on a URL, we expect a new window to open. To do this, we need to add a new attribute called *target*. For a link to open in a new window, the target attribute requires a value of *_blank*. The target attribute can be added directly to the opening tag of the anchor element, just like the href attribute. 
+
+```html
+<a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">The Brown Bear</a>
+```
 
 
 
