@@ -397,3 +397,39 @@ In this example, the *p* element is assigned an id of “top” and the *h1* ele
 
 </html>
 ```
+
+# Tables
+
+When we create a web page, we can aggregate data to show trends or useful information. To do this, we must first add the tag *table*. This element will contain all of the tabular data we plan on displaying. After this, the second step is add rows using the table row element *tr*. Then, the third step is to add data points. To do this, we just need to use the *td* tag. Let's see and example:
+
+```html
+  <table>
+    <tr>
+    </tr>
+    <tr>
+      <td>Adam’s Greenworks</td>
+      <td>14</td>
+      <td>Package Items</td>
+    </tr>
+  </table>
+```
+
+To add titles to rows and columns, we can use the table heading element *th*. This tag has an attritube called *scope*  which can take the values *row* or *col*. Additionally to this, we can add more elements to our tables. A border could be added to a table using the *border* attribute and setting it equal to an integer. However, the vast majority of developers are using CSS to add style to HTML
+
+```html
+<table border="1">
+  <tr>
+    <th scope = "col">Company Name </th>
+    <th scope = "col">Number of Items to Ship </th>
+    <th scope = "col">Next Action </th>
+  </tr>
+  <tr>
+    <td>Adam’s Greenworks</td>
+    <td>14</td>
+    <td>Package Items</td>
+  </tr>
+</table>
+```
+
+
+
