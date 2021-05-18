@@ -313,6 +313,25 @@ When we click on a URL, we expect a new window to open. To do this, we need to a
 ```html
 <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">The Brown Bear</a>
 ```
+Having explained how to add external links to our website, a new question could arise is how to add more pages to our website. First of all, when making multi-page static websites, web developers often store HTML files in the root directory, or a main folder where all the files. 
 
+```cmd
+project-folder/
+|—— about.html
+|—— contact.html
+|—— index.html
+```
+In projects, HTML files ares often stored in the same folder.  If the browser is currently displaying index.html, it also knows that about.html and contact.html are in the same folder.
 
+```html
+  <body>
+    <a href = "./index.html"> Brown Bear</a>
+    <a href = "./aboutme.html">About Me</a>
+    <h1>The Brown Bear</h1>
+```
 
+Additionally, HTMLL allows us to turn nearly any element into a link by wrapping that element with an *anchor* element. Using this technique we can turn images into links by wrapping the *img* element with an *a* element.
+
+```html
+<a href="https://en.wikipedia.org/wiki/Opuntia" target="_blank"><img src="https://www.Prickly_Pear_Closeup.jpg" alt="A red prickly pear fruit"/></a>
+````
