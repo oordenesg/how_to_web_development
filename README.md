@@ -344,7 +344,7 @@ When we create a web page we must be sure that our code is descriptive. To do th
 <h1 id="bottom">This is the bottom! </h1>
 ```
 
-In this example, the <p> element is assigned an id of “top” and the <h1> element is assigned “bottom.” An id can be added to most elements on a webpage.
+In this example, the *p* element is assigned an id of “top” and the *h1* element is assigned “bottom.” An id can be added to most elements on a webpage.
   
 ```html
 <!DOCTYPE html>
