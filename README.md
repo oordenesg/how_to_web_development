@@ -431,5 +431,45 @@ To add titles to rows and columns, we can use the table heading element *th*. Th
 </table>
 ```
 
+In HTML, we can also span columns using the *colspan* attribute. In the following example, we will see the data *Out of Town* spans the Monday and Tuesday table headings using the value 2 (two columns). The data Back in Town appear only under the Wednesday heading.
 
+```htlm
+<table>
+  <tr>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+  </tr>
+  <tr>
+    <td colspan="2">Out of Town</td>
+    <td>Back in Town</td>
+  </tr>
+</table>
+```
+Data can aslo span multiple rows using the rowspan attribute. The rowpsan attribute is used for data that spans multiple rows. With all these attributes, a table can grow to contain a lot of data and become unmanageable. When this happens, the table can be sectioned off so that it is easier to manage. Long tables can be sectioned off using the table body element *tbody*. The *tbody* element should contain all of the table’s data, excluding the table headings.
+
+
+```html
+<table>
+  <tbody>
+    <tr>
+      <th></th>
+      <th>Saturday</th>
+      <th>Sunday</th>
+    </tr>
+    <tr>
+      <th>Morning</th>
+      <td rowspan="2">Work</td>
+      <td rowspan="3">Relax</td>
+    </tr>
+    <tr>
+     <th>Afternoon</th>
+    </tr>
+    <tr>
+      <th>Evening</th>
+      <td>Dinner</td>
+    </tr>
+  </tbody>
+</table>
+```
 
