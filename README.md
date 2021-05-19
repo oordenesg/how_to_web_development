@@ -433,7 +433,7 @@ To add titles to rows and columns, we can use the table heading element *th*. Th
 
 In HTML, we can also span columns using the *colspan* attribute. In the following example, we will see the data *Out of Town* spans the Monday and Tuesday table headings using the value 2 (two columns). The data Back in Town appear only under the Wednesday heading.
 
-```htlm
+```html
 <table>
   <tr>
     <th>Monday</th>
@@ -472,4 +472,52 @@ Data can aslo span multiple rows using the rowspan attribute. The rowpsan attrib
   </tbody>
 </table>
 ```
+
+In the last example, we saw that the table’s headings were kept inside of the table’s body. We can also pu the table's headings off the table by using the tag *thead*. Addittionally to this, the bottom part of a table can also be sectioned off using thhe *tfoot* element. 
+
+
+```html
+<table>
+  <thead>
+    <tr>
+      <th>Quarter</th>
+      <th>Revenue</th>
+      <th>Costs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Q1</th>
+      <td>$10M</td>
+      <td>$7.5M</td>
+    </tr>
+    <tr>
+      <th>Q2</th>
+      <td>$12M</td>
+      <td>$5M</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>Total</th>
+      <td>$22M</td>
+      <td>$12.5M</td>
+    </tr>
+  </tfoot>
+</table>
+```
+
+Finally, we can use CSS to style tables. Tables, by default, are very bland. They have no borders, the font color is black, and the typeface is the same type used for other HTML elements.
+```css
+table, th, td {
+  border: 1px solid black;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+```
+
+The code shows a demonstration of the various table aspects we can style using CSS properties
+
+
+
 
