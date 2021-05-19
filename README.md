@@ -547,6 +547,8 @@ The *main* tag is used to encapsulate the main content of our webpage. By using 
 </html>
 ```
 
+There are two other elements that we can add in the body called *section* and *article*. The *section* tag defines elements in a document such as chapters, headings or any other are of the document with the same theme. The *artible* tag holds content that makes sense on itws own. This tag can hold content shuch as artibles, blogs, comments, etc. 
+
 
 
 
