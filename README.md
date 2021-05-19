@@ -515,8 +515,37 @@ table, th, td {
   text-align: center;
 }
 ```
-
 The code shows a demonstration of the various table aspects we can style using CSS properties
+
+# Semantic HTML
+
+Let's check semantics aspects of HTML to complement the structure of the web page. The traditional *header* tag can be replaced by using the *div* tag. However,  by using *header* tag our code becomes easier to read. When we use *header* the add a *nav* tag to defined a block of navigation links such as menus and tables of contents. Addittionally to this, there are two important structures called *main* and *footer*. These elements help describe here an element is located based on conventional web development standars.
+
+The *main* tag is used to encapsulate the main content of our webpage. By using this tag instead of *div*, screen readers and web browsers are better able to identify tat whatever  is inside of the tag is the bulk of the content. On the other hand, the *footer* tag contains the contact information of our webpage.
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h1>Navigational Links</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#posts">Posts</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <p>This is where the main content will go once the page is built out!</p>
+    </main>
+    <footer>
+      <p>Contact me at +1 234 567 8910 </p>
+    </footer>
+  </body>
+</html>
+```
 
 
 
