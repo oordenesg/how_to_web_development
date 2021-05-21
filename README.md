@@ -587,6 +587,55 @@ In HTML, we can add content that is not required in order to understand the main
 
 What if we want to add an image or illustration? We can add *figure* and *figcaption* to do this. The *figure* is an element used to encapsulate media such as an image, illustration, diagram, code snippet, etc, which is referenced in the main flow of the document. On the other hand, the *figcaption* is an element used to describe an image. Usually, the *figcation* will go inside *figure*. We can also put another king of files on our website. The *audio* element is used to embed audio content into a document. Like *video*, *audios* uses the *src* attribute to link the source.
 
-
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Navigational Links</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#posts">Posts</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section>
+        <article>
+          <h2>Facts About Dogs</h2>
+          <p>
+          Dogs have a sense of time. It's been proven that they know the difference between a hour and five. If conditioned to, they can predict future events, such as regular walk times.
+          </p>
+        </article>
+        <aside>
+          <p>A study was conducted on dogs being away from their owners for varying hours and the studies show that dogs who were away from their owners the longest showed the greatest amount of affection!
+          </p> 
+        </aside>
+      </section> 
+      <figure>
+        <img src="https://content.codecademy.com/courses/SemanticHTML/dogimage.jpeg"/>
+        <figcaption>A cute dog.</figcaption>
+      </figure>  
+      <audio controls>
+        <source src="https://content.codecademy.com/courses/SemanticHTML/dogBarking.mp3" type="audio/mp3">
+      </audio> 
+  <!-- Create <video> and <embed> tag here -->
+      <video src = "https://content.codecademy.com/courses/SemanticHTML/dog-video.mp4" controls>Video not supported
+      </video>
+      <embed src = "https://content.codecademy.com/courses/SemanticHTML/dog-on-beach.gif" />
+      
+    </main>
+    <footer>
+      <p>Contact me at +1 234 567 8910 </p>
+    </footer>
+  </body>
+</html>
+```
 
 
