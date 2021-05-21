@@ -549,6 +549,44 @@ The *main* tag is used to encapsulate the main content of our webpage. By using 
 
 There are two other elements that we can add in the body called *section* and *article*. The *section* tag defines elements in a document such as chapters, headings or any other are of the document with the same theme. The *artible* tag holds content that makes sense on itws own. This tag can hold content shuch as artibles, blogs, comments, etc. 
 
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h1>Navigational Links</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#posts">Posts</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section>
+        <article>
+        <h2>Facts About Dogs</h2>
+        <p>
+        Dogs have a sense of time. It's been proven that they know the difference between a hour and five. If conditioned to, they can predict future events, such as regular walk times.
+        </p>
+        </article>
+      </section>   
+    </main>
+    
+    <footer>
+      <p>Contact me at +1 234 567 8910 </p>
+    </footer>
+          
+  </body>
+</html>
+
+```
+In HTML, we can add content that is not required in order to understand the main structure. We can do this by adding the *aside* tag to mark additional information. This element can be used alongside other elements such as *article* or *section*. Some common uses of the *aside* element are for: Bibliographies, endnotes, comments or additional information.
+
+What if we want to add an image or illustration? We can add *figure* and *figcaption* to do this. The *figure* is an element used to encapsulate media such as an image, illustration, diagram, code snippet, etc, which is referenced in the main flow of the document. On the other hand, the *figcaption* is an element used to describe an image. Usually, the *figcation* will go inside *figure*. We can also put another king of files on our website. The *audio* element is used to embed audio content into a document. Like *video*, *audios* uses the *src* attribute to link the source.
+
 
 
 
