@@ -585,7 +585,7 @@ There are two other elements that we can add in the body called *section* and *a
 ```
 In HTML, we can add content that is not required in order to understand the main structure. We can do this by adding the *aside* tag to mark additional information. This element can be used alongside other elements such as *article* or *section*. Some common uses of the *aside* element are for: Bibliographies, endnotes, comments or additional information.
 
-What if we want to add an image or illustration? We can add *figure* and *figcaption* to do this. The *figure* is an element used to encapsulate media such as an image, illustration, diagram, code snippet, etc, which is referenced in the main flow of the document. On the other hand, the *figcaption* is an element used to describe an image. Usually, the *figcation* will go inside *figure*. We can also put another king of files on our website. The *audio* element is used to embed audio content into a document. Like *video*, *audios* uses the *src* attribute to link the source.
+What if we want to add an image or illustration? We can add *figure* and *figcaption* to do this. The *figure* is an element used to encapsulate media such as an image, illustration, diagram, code snippet, etc, which is referenced in the main flow of the document. On the other hand, the *figcaption* is an element used to describe an image. Usually, the *figcation* will go inside *figure*. We can also put another king of files on our website. The *audio* element is used to embed audio content into a document. Like *video*, *audios* uses the *src* attribute to link the source. Let's see an example.
 
 ```html
 <!DOCTYPE html>
@@ -638,4 +638,7 @@ What if we want to add an image or illustration? We can add *figure* and *figcap
 </html>
 ```
 
+# Intro to CSS 
+
+Previously we used HTML to create the main structure of our web page. However, the use of HTML can be visually unappealing on its own.  CSS is a languaghe web developers use to style the HTML content on web page. If we want to modify colors, font types, font sizes and more, CCSS is the tool for that job.
 
