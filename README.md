@@ -642,3 +642,28 @@ What if we want to add an image or illustration? We can add *figure* and *figcap
 
 Previously we used HTML to create the main structure of our web page. However, the use of HTML can be visually unappealing on its own.  CSS is a languaghe web developers use to style the HTML content on web page. If we want to modify colors, font types, font sizes and more, CCSS is the tool for that job.
 
+CSS has two different methods for writing code. The first sintax is what we called a *ruleset* while the second is what we called *inline*. Both have different components. Let's check all of them:
+
+Ruleset Terms:
+- Selector—The beginning of the ruleset used to target the element that will be styled.
+- Declaration Block—The code in-between (and including) the curly braces ({ }) that contains the CSS declaration(s).
+- Declaration—The group name for a property and value pair that applies a style to the selected element.
+- Property—The first part of the declaration that signifies what visual characteristic of the element is to be modified.
+- Value—The second part of the declaration that signifies the value of the property.
+
+Inline Style Terms:
+- Opening Tag—The start of an HTML element. This is the element that will be styled.
+- Attribute—The style attribute is used to add CSS inline styles to an HTML element.
+- Declaration—The group name for a property and value pair that applies a style to the selected element.
+- Property—The first part of the declaration that signifies what visual characteristic of the element is to be modified.
+- Value—The second part of the declaration that signifies the value of the property.
+
+Let's see an example
+
+![image](https://user-images.githubusercontent.com/76072249/119213344-66ee1980-ba8c-11eb-80f0-a1eef6697efd.png)
+
+In we use the *inline* style, we can write the CSS within the HTML code. To do this we cann add the style attribute directly to the opening tag. After you add the attribute, you can set it equal to the CSS style(s) you’d like applied to that element.
+
+```html
+  <p style = 'color: green'>The world is full of fascinating places. Planning the perfect vacation involves packing up, leaving home, and experiencing something new.</p>
+```
