@@ -728,5 +728,33 @@ Here we have a class attribute with an opening tag *p*. This class attribute is 
 }
 ```
 
+Using the method, it is possible to add more than one class name to an HTML element's class attribute. Let's say there's a heading element that needs to be green and bold. We could write two CSS rulsets like:
 
+```css
+.green {
+  color: green;
+}
+ 
+.bold {
+  font-weight: bold;
+}
+```
+After this, coudl include both of these classes one HTML element. Let's see how it works
 
+```html
+<h1 class='green bold'> ... </h1>
+```
+
+Oftentimes, we need to select just one element with CSS to give it its own unique style.  We can do this by using the *id* attribute. 
+
+```html
+<h1 id='large-title'> ... </h1>
+```
+
+Then, to select an element's ID with CSS, we prepend the *id* name with a number sign *#*. Let's see how to do this.
+
+```css
+#large-title {
+ 
+}
+```
