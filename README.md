@@ -699,4 +699,34 @@ Let's check a new example.
 </head>
 ```
 
+## Selectors in CSS
+
+In CSS, a selector is used to target the specific HTML element(s) to by styled. In this languaghe, the type selector matches the type element in the HTML document. Let's see the following example using the *p* tag.
+
+```css
+p {
+  color: green;
+}
+```
+We also use the universial selector to select all elements of any type. We can use this to reset default brower styling or to select all children of a parent element. The universal selector uses the * character in the same place where we specified the type selector.
+
+```css
+* { 
+  font-family: Verdana;
+}
+```
+
+As we know HTML elements can also have attributes. When we work with HTML and CSS a class attribute  is one of most common ways to select an element. Let's consider the following HTML. 
+
+```html
+<p class='brand'>Sole Shoe Company</p>
+```
+Here we have a class attribute with an opening tag *p*. This class attribute is equal to *brand*. To select this element using CSS, we can create a ruleset with a class selector of .brand.
+
+```css
+.brand {
+}
+```
+
+
 
