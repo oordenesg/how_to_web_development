@@ -774,3 +774,13 @@ img[src*='summer'] {
   height: 100px;
 }
 ```
+    
+In some cases it is possible to see that some elements can change after certain user interactions. For example, when we click on a blua link to visit to another page but when we return the link's text is purple. This is a common example of pseudo-class selector. In fact, *:focus* or *:disable* are all pseudo-classes. A pseudo-class is always written as a colon *:* followed by a name. Let's see an example.
+    
+```css
+p:hover {
+  background-color: lime;
+}    
+```
+    
+In CSS, classes are meant to be reaused over many elements. We can write CSS classes in a variaty of way by mixing classes. Let's think in the following situation. One headline needs to be bold and blue, and the other needs to be bold and green. Instead of writing separate CSS rules for each headline that repeat each other’s code, it’s better to write a .bold CSS rule, a .green CSS rule, and a .blue CSS rule. Then you can give one headline the bold green classes, and the other the bold blue classes.    
