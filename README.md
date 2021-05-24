@@ -667,3 +667,36 @@ In we use the *inline* style, we can write the CSS within the HTML code. To do t
 ```html
   <p style = 'color: green'>The world is full of fascinating places. Planning the perfect vacation involves packing up, leaving home, and experiencing something new.</p>
 ```
+
+The problem with inline style is that if we want to style multiple *h1* elements. We would have to add inline style to each element manually. Fortunately, HTML allows us to write CSS code in its own dedicate secton wih a *style* element. To create an internal stylesheet, a *style* element must be added inside the of the *head* element. Afther adding the opening and closing *style* tags, we can begin writing CSS Code.
+
+```html
+<head>
+  <style>
+    p {
+      color: red;
+      font-size: 20px;
+    }
+  </style>
+</head>
+```
+
+In real world, developers avoid mixing code by storing HTML and CSS in separate filex. We can do this by using the *.css* extension. When we have the HTML and CSS code in seperate files, they must be linked. To do this we can use the *link* element to link both files. This element must be placed within the head of the HTML file. The link element hast two attributes. The first, *href*, it must have the path of the CSS file. While, *rel* describes the relationship between the HTML and CSS file. Because we are linking to a stylesheet, the value should be set to *stylesheet*. If both files are stored in the same directory, then we can specifiy a relative path insted of  a URL. Let's seen an example.
+
+```html
+// Both the HTML and CSS code in a different path
+<link href='https://www.codecademy.com/stylesheets/style.css' rel='stylesheet'>
+
+// Both are in the same path
+<link href='./style.css' rel='stylesheet'>
+```
+Let's check a new example.
+
+```html
+<head>
+  <link href = "style.css" rel = "stylesheet" >
+  <title>Vacation World</title>
+</head>
+```
+
+
