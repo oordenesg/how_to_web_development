@@ -758,3 +758,19 @@ Then, to select an element's ID with CSS, we prepend the *id* name with a number
  
 }
 ```
+As we saw in the HTML section, some HTML elements use attributes to add extra detail or functionality to the element. For instance, *href* and *src*.  The attribute selector can be used to target HTML elements that already contain attributes. Attributes can be selected similarly to types, classes and IDs. Let's see an exaple
+
+```html
+<img src='/images/seasons/cold/winter.jpg'>
+<img src='/images/seasons/warm/summer.jpg'>
+```
+
+```css
+img[src*='winter'] {
+  height: 50px;
+}
+ 
+img[src*='summer'] {
+  height: 100px;
+}
+```
