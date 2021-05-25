@@ -784,3 +784,20 @@ p:hover {
 ```
     
 In CSS, classes are meant to be reaused over many elements. We can write CSS classes in a variaty of way by mixing classes. Let's think in the following situation. One headline needs to be bold and blue, and the other needs to be bold and green. Instead of writing separate CSS rules for each headline that repeat each other’s code, it’s better to write a .bold CSS rule, a .green CSS rule, and a .blue CSS rule. Then you can give one headline the bold green classes, and the other the bold blue classes.    
+    
+Browers need to decide the order in which CSS styles will by diplayed. A good practice in CSS in to style elements while using the lowest degree of specificity. IDs are the most specific selector in CSS followed by classes and finallytype. Let's see a example
+    
+```html
+<h1 class='headline'>Breaking News</h1>
+```
+    
+```css
+h1 {
+  color: red;
+}
+.headline {
+  color: firebrick;
+}
+ ```
+ In the example code above, the color of the heading would be set to firebrick, as the class selector is more specific than the type selector. If an ID attribute (and selector) were added to the code above, the styles within the ID selector’s body would override all other styles for the heading.   
+    
