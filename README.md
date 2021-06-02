@@ -824,4 +824,23 @@ The code above would select only the <h1> elements with a class 'special'. Howev
 }
 ```
     
-Adding more than one tag, class, or ID to a CSS selector increases the specificity of the CSS selector.
+Adding more than one tag, class, or ID to a CSS selector increases the specificity of the CSS selector. In CSS, it is possible to add CSS styles to multiple CSS selectors all at once. With this, we can prevent writing repetitive code. Let's see an example of repetitive code.
+    
+```css
+h1 {
+  font-family: Georgia;
+}
+.menu {
+  font-family: Georgia;
+}    
+```
+Insted of writing the same line font-family two times, we can separate the selectios by a comma to apply the same style to both. 
+    
+```css
+h1, 
+.menu {
+  font-family: Georgia;
+}
+```
+    
+    
