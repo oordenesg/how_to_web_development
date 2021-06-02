@@ -799,7 +799,7 @@ h1 {
   color: firebrick;
 }
  ```
- In the example code above, the color of the heading would be set to firebrick, as the class selector is more specific than the type selector. If an ID attribute (and selector) were added to the code above, the styles within the ID selector’s body would override all other styles for the heading.   
+In the example code above, the color of the heading would be set to firebrick, as the class selector is more specific than the type selector. If an ID attribute (and selector) were added to the code above, the styles within the ID selector’s body would override all other styles for the heading.   
     
  In some cases, it is possible to require an HTML element to have two o more CSS selectors at the same time. This is done by combining multiple selectors, which we will refer to as chaining. 
 
@@ -808,7 +808,7 @@ h1.special{
     } 
 ```
 
-The code above would select only the <h1> elements with a class 'special'. However if a <p> element also had a class of special, the rule would not style the paragraph.
+The code above would select only the *h1* elements with a class 'special'. However if a <p> element also had a class of special, the rule would not style the paragraph.
  
  In CSS we can also select elements that are nested within other HTML elements (descendants). For example, a list of elements. In we defined the attribute class of list as 'main-list' (for example). We can use the same method described previously to make sure that the list will appear in the context we expect. Let's see an example
     
