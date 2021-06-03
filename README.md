@@ -884,3 +884,29 @@ h1 {
   background-color: blue;
 } 
  ```
+We can control the opacity as well. This is a measure of how to transparent an element is and it is measured from 0 to 1 (from fully invisible to fully visible).
+
+```css
+.overlay {
+  opacity: 0.5;
+}
+```
+Using CSS, we can change the background of an element. One option is to make the background of an element an image. This can be done by using the property *background-image*. We can use this property to use an image from a URL or folder.
+  
+ ```css
+.main-banner {
+  background-image: url('https://www.example.com/image.jpg'); // from a url
+  background-image: url('images/mountains.jpg'); // from a folder
+}
+ ```
+*!important* can be applied to specific declarations, instead of full rules. It will override any style no matter how specific it is. As a result, it should almost never be used. Once !important is used, it is very hard to override.
+    
+```css
+p {
+  color: blue !important;
+}
+ 
+.main p {
+  color: red;
+}
+```
