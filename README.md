@@ -842,5 +842,28 @@ h1,
   font-family: Georgia;
 }
 ```
+
+## Visual Rules
     
+In CSS there are visual rules that we can use to style our website. One of the most common concepts is *Font* and it refers to the technical term typeface, or font family. To change this we can use the font-family property. There are two options:
+
+```css
+h1 {
+  font-family: Garamond; // Option 1
+  font-family: 'Courier New'; // Option 2 when the name of a typeface consists of more than one word
+}
+```
+This is not the only way to customize the text. We also can modify the font size. To do this we can use the *font-size* property.
+
+```css
+p {
+  font-size: 18px;
+}
+```` 
+Another property is *font-weight* which controls how bold or thin text appears. Let's see an example.
     
+```css
+p {
+  font-weight: bold;
+}
+```
