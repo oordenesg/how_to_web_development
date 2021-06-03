@@ -867,3 +867,20 @@ p {
   font-weight: bold;
 }
 ```
+
+In CSS our text always appears on the left side of the container in which it resides. To change this, we can use the *text*align* property and it will align text to the element that holds it. In this property we can set 4 values. These are: *left*,*center*,*right*,*justify*
+
+ 
+```css
+h1{
+   text-align: right;
+}     
+```
+In terms of colors, it's important to make two distinctions about this. Colors can affect the desing of the *Foreground color* or *Backgroud color*. The foreground color is the color that an elemnt appers. Conversely,  the brackground color refers to color behind the element.
+ 
+ ```css
+h1 {
+  color: red; // foreground color
+  background-color: blue;
+} 
+ ```
