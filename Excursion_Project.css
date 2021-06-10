@@ -1,4 +1,3 @@
-
 h1 {
     font-family: Verdana;
     font-weight: Normal;
@@ -9,8 +8,31 @@ h1 {
 
 h2{
     font-family: Verdana;
-    color:gray;
-    font-size: 21px;
+    color:white;
+    font-size: 42px;
     text-align:center;
     font-weight: Normal;
 }
+
+p {
+    color:gray;
+    font-family: Verdana;
+    text-align: center;
+}
+
+p a{
+  color:aquamarine;
+  font-size:16px;
+}
+
+video {
+    display: block;
+    margin: auto;
+  }
+
+.landspace {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
