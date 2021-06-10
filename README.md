@@ -911,4 +911,24 @@ p {
 }
 ```
 
-## Visualization
+## Improved Styling Colors
+    
+In CSS we can defined the foreground color and background color. Foreground color is the color that an element appears in. On the other hand, the color background is the color behind the text.
+
+```css
+h1 {
+  color: red;
+  background-color: blue;
+}
+```
+One syntax that we can use is called *hexadecimal*.Color specified using this system are called hex colors. To do this we must set the character with *#* followed by three or six characters. 
+    
+```css
+darkseagreen: #8FBC8F
+sienna:       #A0522D
+saddlebrown:  #8B4513
+brown:        #A52A2A
+black:        #000000 or #000
+white:        #FFFFFF or #FFF
+aqua:         #00FFFF or #0FF 
+```
