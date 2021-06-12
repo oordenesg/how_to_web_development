@@ -941,3 +941,10 @@ h1 {
 }
 ```
 These three values represents a color and each can have a decimal number from 0 to 255. The first number represents the red color, the second is green and the third is blue. These colors are exactly the same as hex, but with a different syntax and a different number system.
+    
+Similarly to RGB, there is another system called HSL (hue-saturation-lightness). This syntax is similar to the RGB form but it differs in important ways. The first number represents the degree of the hue (from 0 to 360). The second and third represent the saturation and lightness respectively. 
+    
+```css
+color: hsl(120, 60%, 70%); 
+```
+
