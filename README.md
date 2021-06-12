@@ -932,3 +932,12 @@ black:        #000000 or #000
 white:        #FFFFFF or #FFF
 aqua:         #00FFFF or #0FF 
 ```
+
+In CSS there is another syntax for representing RGB values. This method uses decinal numbers rather than hexadecimal numbers. To do this, we have to use the *rgb* syntax.
+    
+```css
+h1 {
+  color: rgb(23, 45, 23);
+}
+```
+These three values represents a color and each can have a decimal number from 0 to 255. The first number represents the red color, the second is green and the third is blue. These colors are exactly the same as hex, but with a different syntax and a different number system.
