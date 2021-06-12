@@ -948,3 +948,8 @@ Similarly to RGB, there is another system called HSL (hue-saturation-lightness).
 color: hsl(120, 60%, 70%); 
 ```
 
+In HSL color scheme, to use opacity we just have tu use *hsla* instead of *hsl* and four values instead of three. In thi case the first three values work the same as *hsl*. However, the fourth value is the alpha. This last value is sometimes called opacity. Let's see an example.
+    
+```css
+color: hsla(34, 100%, 50%, 0.1);
+```
