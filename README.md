@@ -953,3 +953,32 @@ In HSL color scheme, to use opacity we just have tu use *hsla* instead of *hsl* 
 ```css
 color: hsla(34, 100%, 50%, 0.1);
 ```
+
+## Typography
+    
+Now we will focus on typography. We will learn how to style and transform fonts and how to lay text out on a page. Additionally, we will add external fonts to our web pages. As we saw previously, we can define the font of our text using the property *font-family*. Let's see an example.
+    
+```css
+h1 {
+  font-family: Arial; 
+}
+
+h2 {
+  font-family: 'Times New Roman';
+}
+```
+If the font-family has more than just one word we can use quotation marks to group the words together. In CSS, we can try different font-families as well. This can be done by using font stack.
+
+```css
+h1 {
+  font-family: Caslon, Georgia, 'Times New Roman';
+}    
+```
+A font stack usually contains a list of similar-looking fonts. In this example, the browser will first try to use the Caslon font. If that’s not available, it will try to use a similar font, Georgia. And if Georgia is not available, it will try to use Times New Roman. But, what if none are available. Well we can establish a rule to solve this. 
+    
+```css
+h1 {
+  font-family: Caslon, Georgia, 'Times New Roman', serif;
+}
+```
+In this example, the font stack has 4 fonts. If the first 3 fonts aren’t available, the browser will use whatever serif font is available on the system.
