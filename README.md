@@ -999,3 +999,11 @@ h3 {
   font-style: italic;
 }
 ```
+
+We can also styled the text to appear in either all uppercase or lowercase. This can be done by using the *text-transform* property.
+    
+```css
+h1 {
+  text-transform: uppercase;
+}
+```
