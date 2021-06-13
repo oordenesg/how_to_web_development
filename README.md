@@ -981,4 +981,21 @@ h1 {
   font-family: Caslon, Georgia, 'Times New Roman', serif;
 }
 ```
-In this example, the font stack has 4 fonts. If the first 3 fonts aren’t available, the browser will use whatever serif font is available on the system.
+In this example, the font stack has 4 fonts. If the first 3 fonts aren’t available, the browser will use whatever serif font is available on the system. Using CSS, we also have the opportunity to control how bold or thin text appears. We can do this by using the *font-weight* property. This property can have different values like *bold*,*normal*, *lighter*,*bolder*. We can also use numerical values (from 1 to 1000) within this property. A font weight of 400 is equal to the keyword value normal, and a font weight of 700 is equal to bold.
+    
+```css
+.left-section {
+  font-weight: 700;
+}
+ 
+.right-section {
+  font-weight: bold; 
+}
+```
+We can also italicize text with the font-style property. To do this, we can use the *font-style* property.
+
+```css
+h3 {
+  font-style: italic;
+}
+```
