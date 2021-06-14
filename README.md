@@ -1025,4 +1025,17 @@ h1 {
 }
 ```
     
+What if we want to select an font from Google. Well, we can do this by using HTML and the *link* element. The generated *link* element needs to be added to the *head* element in our HTML document for it to be ready to be used in our CSS. Then we just can create *font-family* declaration in our CSS like how we learned to do with other fonts.
     
+ ```html
+ <head>
+  <!-- Add the link element for Google Fonts along with other metadata -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<head> 
+```
+
+```css
+p {
+  font-family: 'Roboto', sans-serif;
+}
+```
