@@ -1007,3 +1007,22 @@ h1 {
   text-transform: uppercase;
 }
 ```
+
+Using CSS we can display our text by different ways. There are some properties such as *letter-spacing*, *word-spacing*, *line-height* and *text-align* which are usefult to display our text. *letter-spacing* is used to set the horizontal spacing between the individual characters in an element. The *word-spacing* property will help us to enhance the readability of bolded or enlarged text. This property takes length values in units such as *3px* or *0.2em*. The property *line-height* helps us to set how tall we want each line containing our text to be. The value of this property can be a unitless number, such as 1.2, or a length value, such as 12px, 5% or 2em. Let's see some examples:
+
+```css
+p {
+  letter-spacing: 2px;
+}
+h1 {
+  word-spacing: 0.3em;
+}
+p {
+  line-height: 1.4;
+}
+h1 {
+  text-align: right;
+}
+```
+    
+    
